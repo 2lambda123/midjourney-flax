@@ -5,7 +5,7 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.13.8
+    jupytext_version: 1.16.4
 kernelspec:
   display_name: 'Python 3.8.11 (''.venv'': venv)'
   language: python
@@ -141,7 +141,6 @@ colab:
   base_uri: https://localhost:8080/
 id: qB6l-9EabOwH
 outputId: 1a6c6a17-0b95-42c2-b5bf-b9ad80fd7758
-tags: []
 ---
 class ExplicitMLP(nn.Module):
   features: Sequence[int]
@@ -181,7 +180,6 @@ colab:
   base_uri: https://localhost:8080/
 id: UPNGIr6wcGaw
 outputId: b3709789-e66e-4e20-f6b2-04022f8a62bb
-tags: []
 ---
 class SimpleMLP(nn.Module):
   features: Sequence[int]
@@ -234,7 +232,6 @@ colab:
   base_uri: https://localhost:8080/
 id: 7OACbTFHjMvl
 outputId: bc5cb1f2-c5e9-4159-d131-73247009e32f
-tags: []
 ---
 class SimpleDense(nn.Module):
   features: int
@@ -273,7 +270,6 @@ colab:
   base_uri: https://localhost:8080/
 id: CE0CTLVvZ8Yn
 outputId: 1e822bd8-7a08-4e80-e0e6-a86637c46772
-tags: []
 ---
 class ExplicitDense(nn.Module):
   features_in: int  # <-- explicit input shape
@@ -328,7 +324,6 @@ colab:
   base_uri: https://localhost:8080/
 id: u6_fbrW2XT5t
 outputId: 2a8f5453-81b1-44dc-a431-d14b372c5710
-tags: []
 ---
 class Counter(nn.Module):
   @nn.compact
@@ -367,7 +362,6 @@ colab:
   base_uri: https://localhost:8080/
 id: BBrbcEdCnQ4o
 outputId: 8f299a5c-74c8-476c-93fa-e5543901ec45
-tags: []
 ---
 class Block(nn.Module):
   features: int
@@ -428,7 +422,6 @@ colab:
   base_uri: https://localhost:8080/
 id: UEUTO8bf0Kf2
 outputId: 3f324d0f-259f-40f0-8273-103f7fc281c5
-tags: []
 ---
 class MLP(nn.Module):
   features: Sequence[int]
@@ -470,7 +463,6 @@ colab:
   base_uri: https://localhost:8080/
 id: sogMxDQpyMZE
 outputId: 7fe8e13b-7dd6-4e55-ee50-ce334e8ed178
-tags: []
 ---
 class RematMLP(nn.Module):
   features: Sequence[int]
@@ -523,7 +515,6 @@ colab:
   base_uri: https://localhost:8080/
 id: PIGiriD0yFXo
 outputId: 223d880e-c7b2-4210-ebb5-dbfcdd9aed09
-tags: []
 ---
 class RawDotProductAttention(nn.Module):
   attn_dropout_rate: float = 0.1
@@ -650,7 +641,6 @@ colab:
   base_uri: https://localhost:8080/
 id: oxA_lWm7tH2B
 outputId: 7d9ebed3-64de-4ca8-9dce-4b09ba9e31a1
-tags: []
 ---
 class SimpleScan(nn.Module):
   @nn.compact
